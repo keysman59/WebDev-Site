@@ -93,6 +93,39 @@
 	background: #e4fdf9;
 }
 
+.services__block {
+	padding-bottom: 121px;
+}
+
+.services__bottom {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 36px;
+}
+
+.services__bottom-column {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	width: 26%;
+	padding: 57px 48px 38px 48px;
+	background: white;
+	margin-right: 36px;
+}
+
+.services__bottom-column:last-child {
+	margin-right: 0;
+}
+
+.services__bottom-caption {
+	text-align: center;
+}
+
+.services__bottom-text {
+	text-align: center;
+}
+
 
 
 /* public */
