@@ -126,7 +126,155 @@
 	text-align: center;
 }
 
+/* works */
 
+.works-buttons {
+	text-align: center;
+}
+
+.works-buttons__link {
+	text-decoration: none;
+	border: 2px solid #00897b;
+	padding: 21px 31px 20px 32px;
+	color: black;
+	margin-right: 20px;
+}
+
+.works-buttons__link:last-child {
+	margin-right: 0;
+}
+
+.works-buttons__link:hover {
+	background: #00897b;
+	color: white;
+}
+
+.works-images {
+	display: flex;
+	justify-content: space-between;
+}
+
+.works-images__wrap-img {
+	padding-right: 29px;
+	/* height: 370px;
+	width: 370px; */
+}
+
+.works-bottom {
+	text-align: center;
+}
+
+/* .works-images__img {
+	height: 100%;
+	width: 100%;
+} */
+
+/* price */
+
+.price {
+	background: #f0f1f1;
+	padding-bottom: 122px;
+}
+
+.price-tariffs {
+	display: flex;
+    justify-content: space-between;
+}
+
+.tariffs-cart {
+    display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.tariffs-cart__top {
+	background: #3949ab;
+    padding: 47px 70px 37px 70px;
+}
+
+.tariffs-cart__caption {
+	color:#ffffff;
+	text-align: center;
+}
+
+.tariffs-cart__price {
+	color:#ffffff;
+	text-align: center;
+	padding-top: 37px;
+}
+
+.tariffs-cart__bottom {
+	background: #ffffff;
+	padding-top: 47px;
+	padding-bottom: 62px;
+}
+
+.tariffs-cart__text {
+	text-align: center;
+	color: #212121;
+	padding-bottom: 35px;
+}
+
+.tariffs-cart__text:after {
+	content: "";
+	border-bottom: 1px solid gray;
+
+}
+
+.tariffs-cart__button {
+
+}
+
+.tariffs-cart__link {
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid #00897b;
+	padding: 21px 31px 20px 32px;
+	color: black;
+	margin-right: 20px;
+}
+
+
+.tariffs-cart__link:hover {
+	background: #00897b;
+	color: white;
+}
+
+/* team */
+
+.team-peoples {
+	display: flex;
+	justify-content: space-between;
+}
+
+.peoples-cart__caption {
+	text-align: center;
+}
+
+.peoples-cart__text {
+	text-align: center;
+}
+
+.peoples-cart__bottom {
+	display: flex;
+	justify-content: space-around;
+}
+
+.peoples-cart__img {
+	border-radius: 10px;
+}
+
+.peoples-cart__center {
+	padding-top: 37px;
+}
+
+.peoples-cart__caption {
+	padding-bottom: 11px;
+}
+
+.peoples-cart__bottom {
+	padding-top: 33px;
+}
 
 /* public */
 
