@@ -11,8 +11,8 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 46px;
+    padding-bottom: 49px;
 }
 
 .header__left {
@@ -33,7 +33,7 @@
 }
 
 .header__menu-item {
-	margin-right: 15px;
+	margin-right: 38px;
 	cursor: pointer;
 	font-family: "OpenSans";
 	font-weight: 600;
@@ -50,8 +50,26 @@
     height: 100vh;
 }
 
-.face__block {
+.face-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction: column;
+	padding-top: 183px;
+}
 
+.face-block__caption {
+	color: white;
+	font-family: "OpenSans";
+	font-weight: 600;
+	font-size: 60pt;
+}
+
+.face-block__text {
+	color: white;
+	font-family: "OpenSans";
+	font-weight: 400;
+	font-size: 22pt;
 }
 
 /* about */
