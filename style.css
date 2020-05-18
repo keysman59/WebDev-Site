@@ -35,6 +35,8 @@
 .header__menu-item {
 	margin-right: 15px;
 	cursor: pointer;
+	font-family: "OpenSans";
+	font-weight: 600;
 }
 
 .header__menu-item:hover {
@@ -242,6 +244,10 @@
 
 /* team */
 
+.team {
+	padding-bottom: 124px;
+}
+
 .team-peoples {
 	display: flex;
 	justify-content: space-between;
@@ -276,6 +282,38 @@
 	padding-top: 33px;
 }
 
+/* blog */
+
+.blog {
+	background: #e4fdf9;
+}
+
+.blog-calendar__caption {
+	color: #00897b;
+	padding-bottom: 30px;
+}
+
+.blog-calendar__center {
+	display: flex;
+	padding-bottom: 27px;
+}
+
+.blog-calendar {
+	display: flex;
+}
+
+.blog-calendar__date {
+	padding-right: 40px;
+}
+
+.blog-calendar__right {
+	padding-left: 30px;
+	padding-top: 62px;
+	padding-right: 100px;
+}
+
+
+
 /* public */
 
 .container {
@@ -295,3 +333,28 @@
     text-align: center;
 	padding-bottom: 122px;
 }
+
+/* fonts */
+
+/* Regular 400 */
+@font-face {
+	font-family: 'OpenSans';  
+	src: url("fonts/OpenSans-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+}
+
+/* Semi-bold 600 */
+/* @font-face {
+	font-family: 'OpenSans';  
+	src: url("fonts/OpenSans-SemiBold.ttf") format("truetype"); 
+	font-style: 600; 
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'OpenSans';  
+	src: url("fonts/DMSans-Bold.ttf") format("truetype"); 
+	font-style: bold; 
+	font-weight: bold;
+} */
