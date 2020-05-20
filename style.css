@@ -40,7 +40,7 @@
 }
 
 .header__menu-item:hover {
-	color: red;
+	color: #3949ab;
 }
 
 .black-block {
@@ -53,6 +53,8 @@
     background: url(images/background.png);
 	height: 100%;
 	position: relative;
+	background-position: center;
+    background-repeat: no-repeat;
 }
 
 .face-buttons__link {
@@ -160,12 +162,18 @@
 
 .about__bottom-caption {
 	text-align: center;
-    padding-top: 38px;
+	padding-top: 38px;
+	font-family: "OpenSans";
+	font-weight: 600;
+	font-size: 20px;
 }
 
 .about__bottom-text {
 	text-align: center;
-    padding-top: 23px;
+	padding-top: 23px;
+	font-family: "OpenSans";
+	font-weight: 400;
+	font-size: 15px;
 }
 
 
@@ -188,6 +196,25 @@
 
 .services__bottom-column {
 	display: flex;
+	align-items: center;
+	flex-direction: column;
+	/* width: 26%; */
+	/* padding: 57px 48px 38px 48px; */
+	background: white;
+	margin-right: 30px;
+	min-width: 370px;
+	min-height: 438px;
+}
+
+.services__bottom-column:hover {
+	background: #00897b;
+	color: white;
+	box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.35);
+}
+  
+
+/* .services__bottom-column {
+	display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -195,18 +222,54 @@
 	padding: 57px 48px 38px 48px;
 	background: white;
 	margin-right: 36px;
+	min-width: 370px;
+    min-height: 438px;
+} */
+
+.services-bottom__btn-block {
+	display: flex;
+	padding-top: 47px;
+}
+
+.services-bottom__link {
+	text-decoration: none;
+	border: 2px solid #212121;
+	padding: 18px 19px 19px 20px;
+	color: #212121;
+	margin-right: 20px;
+	z-index: 99;
+}
+
+.services-bottom__link:hover {
+	background: #00897b;
+	color: white;
+	border: 2px solid white;
 }
 
 .services__bottom-column:last-child {
 	margin-right: 0;
 }
 
+.services__bottom-wrap-img {
+	padding-top: 58px;
+}
+
 .services__bottom-caption {
 	text-align: center;
+	font-family: "OpenSans";
+	font-weight: 400;
+	font-size: 20px;
+	padding-top: 35px;
 }
 
 .services__bottom-text {
 	text-align: center;
+	font-family: "OpenSans";
+	font-weight: 400;
+	font-size: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 22px;
 }
 
 /* works */
@@ -412,7 +475,7 @@
 .general__caption {
 	font-family: 'OpenSans';  
 	font-weight: 600;
-	font-size: 30pt;
+	font-size: 30px;
 	text-align: center;
 	padding-top: 125px;
 
@@ -421,10 +484,12 @@
 .general__text {
 	font-family: 'OpenSans';  
 	font-weight: 400;
-	font-size: 15pt;
+	font-size: 15px;
 	padding-top: 35px;
     text-align: center;
 	padding-bottom: 122px;
+	width: 650px;
+    margin: 0 auto;
 }
 
 /* fonts */
