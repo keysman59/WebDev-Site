@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+    background: #efefef;
+    background: #fff none repeat scroll 0 0;
+    left: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 40px 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 9999;
+}
+
+.header-wrap {
+	display: flex;
+	justify-content: space-between;
+/*    background: #fff none repeat scroll 0 0;
+    left: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 40px 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 9999;*/
+
+}
+
+.logo {
+	cursor: pointer;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu-list {
+	display: flex;
+	padding-bottom: 4px;
+	font-family: Lato,Helvetica,Arial,sans-serif;
+}
+
+.menu-item {
+	list-style: none;
+	padding-left: 30px;
+	cursor: pointer;
+	transition: color .25s ease-in;
+}
+
+.menu-item:hover {
+	color: orange;
+}
+
+/* about */
+
+.about {
+	background: #eee;
+	opacity: 0.6;
+}
+
+.about-wrap {
+	height: 1200px;
+
+
+}
+
+/* public */
+
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.stick {
+    padding: 10px 0px;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+}
+.stick .logo img {
+    width: 45%;
+    transition: 1s;
+}
+.stick .menu ul {
+    margin-top: 2px;
+}
+.stick .menu ul li a {
+    color: #fff;
+}
+
+.nav_bg {} .nav_area {
+    background: #fff none repeat scroll 0 0;
+    left: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 40px 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 9999;
+}

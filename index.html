@@ -3,11 +3,31 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
 
 <div class="wrapper">
-	<div class="header">
+	<!-- <div class="header" id="sticker">
+		<div class="container">
+			<div class="header-wrap" >
+				<div class="logo">
+					<img src="images/logo.png" alt="logo">
+				</div>
+				<div class="menu">
+					<ul class="menu-list">
+						<li class="menu-item">home</li>
+						<li class="menu-item">about</li>
+						<li class="menu-item">company</li>
+						<li class="menu-item">news</li>
+						<li class="menu-item">contacts</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<div class="header" id="sticker">
 		<div class="container">
 			<div class="header__block">
 				<div class="header__left">
@@ -465,6 +485,31 @@
 	</div>
 
 </div>
-<script src="script.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+	jQuery(document).ready(function () {
+	    jQuery('header nav').meanmenu();
+	});
+
+(function ($) {
+ "use strict";
+	/*---------------------
+	 TOP Menu Stick
+	--------------------- */
+		var s = $("#sticker");
+		var pos = s.position();					   
+		$(window).scroll(function() {
+			var windowpos = $(window).scrollTop();
+			if (windowpos > pos.top) {
+			s.addClass("stick");
+			} else {
+				s.removeClass("stick");	
+			}
+		});					
+
+
+})(jQuery);    
+</script>
+<script src="js/main.js"></script>
 </body>
 </html>
